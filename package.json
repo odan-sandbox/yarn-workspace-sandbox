@@ -9,6 +9,7 @@
   "scripts": {
     "dev:frontend": "yarn workspace frontend dev",
     "dev:backend": "yarn workspace backend dev",
+    "dev:db": "echo 'run docker-compose up'",
     "dev": "run-p -l dev:*",
     "dev2:frontend": "cd frontend; yarn dev",
     "dev2:backend": "cd backend; yarn dev",
